@@ -1,5 +1,5 @@
 import java.util.*;
-public class a {
+public class Splittext1 {
     public static int len(String s){
         int c=0;
         for(int i=0;i<s.length();i++){
@@ -15,7 +15,7 @@ public class a {
                 wordCount++;
             }
         }
-        String[] words=new words[wordCount];
+        String[] words=new String[wordCount];
         StringBuilder count=new StringBuilder();
         int index=0;
         for(int i=0;i<n;i++){
@@ -28,8 +28,8 @@ public class a {
                 count.append(s.charAt(i));
             }
             words[index]=count.toString();
-            return words;
         }
+        return words;
     }
     public static boolean compare(String[] userdefined,String[] builtin){
         if(userdefined.length!=builtin.length){
